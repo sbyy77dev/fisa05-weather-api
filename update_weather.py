@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenWeather API 키
-# API_KEY = os.getenv("WEATHER")
+WEATHER = os.getenv("WEATHER")
 CITY = "Seoul"
 URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={WEATHER}&units=metric"
 
