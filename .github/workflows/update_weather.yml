@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install requests
           python update_weather.py
+          git remote set-url origin https://x-access-token:$TOKEN@github.com/${{ github.repository }}.git
         env:
           WEATHER: ${{ secrets.WEATHER }}
           TOKEN: ${{ secrets.TOKEN }}
