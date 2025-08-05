@@ -9,12 +9,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenWeather API 키
-API_KEY = os.getenv("WEATHER")
+# API_KEY = os.getenv("WEATHER")
 CITY = "Seoul"
 URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
 # README 파일 경로
-README_PATH = "/home/user01/backup/README.md"
+README_PATH = "README.md"
 
 def get_weather():
     """OpenWeather API를 호출하여 서울의 날씨 데이터를 가져옴"""
