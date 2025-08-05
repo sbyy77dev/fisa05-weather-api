@@ -11,7 +11,7 @@ load_dotenv()
 # OpenWeather API 키
 # API_KEY = os.getenv("WEATHER")
 CITY = "Seoul"
-URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
+URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={WEATHER}&units=metric"
 
 # README 파일 경로
 README_PATH = "README.md"
